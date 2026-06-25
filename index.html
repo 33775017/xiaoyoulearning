@@ -360,6 +360,8 @@ textarea{min-height:66px;resize:none}
 <script>
 if('serviceWorker'in navigator){navigator.serviceWorker.register('sw.js').then(function(r){console.log('SW registered');}).catch(function(e){console.log('SW failed',e);});}
 var KEY="xiaoyou_peikao_pro_v1",EXAM_DEFAULT="2026-12-26";
+  var defaultProjects=[
+  {id:"math",name:"考研数学",color:"#10a7a5",icon:"数",limit:0},
   {id:"math",name:"考研数学",color:"#10a7a5",icon:"数",limit:0},
   {id:"politics",name:"考研政治",color:"#35b7df",icon:"政",limit:0},
   {id:"ai",name:"AI学习",color:"#20c7cf",icon:"AI",limit:0},
